@@ -7,6 +7,9 @@ gem 'rails', '3.0.9'
 
 gem 'mysql2', '~> 0.2.6'
 
+#email validation
+gem 'spectator-validates_email', :require => 'validates_email'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -29,3 +32,4 @@ gem 'mysql2', '~> 0.2.6'
 # group :development, :test do
 #   gem 'webrat'
 # end
+

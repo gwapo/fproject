@@ -62,6 +62,9 @@ GEM
       thor (~> 0.14.4)
     rake (0.9.2)
     rdoc (3.6.1)
+    spectator-validates_email (0.0.7)
+      actionpack (~> 3.0.0)
+      activemodel (~> 3.0.0)
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
@@ -73,3 +76,4 @@ PLATFORMS
 DEPENDENCIES
   mysql2 (~> 0.2.6)
   rails (= 3.0.9)
+  spectator-validates_email
