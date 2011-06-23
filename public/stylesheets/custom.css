@@ -1,0 +1,22 @@
+#clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+/****************** BODY **********************/
+#pageContainer{
+	width:1024px;
+	margin:0 auto;
+	min-height:500px;
+}
+#pageContainerTop{
+	width:1024px;
+	margin:0 auto;
+	height:92px;
+	position:relative;
+	background-color: blue;
+
+}
+
