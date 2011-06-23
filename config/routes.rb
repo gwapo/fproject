@@ -1,4 +1,6 @@
 Fproject::Application.routes.draw do
+  devise_for :users
+
   resources :suppliers
 
   # The priority is based upon order of creation:

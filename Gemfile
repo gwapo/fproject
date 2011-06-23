@@ -10,6 +10,11 @@ gem 'mysql2', '~> 0.2.6'
 #email validation
 gem 'spectator-validates_email', :require => 'validates_email'
 
+#login
+gem 'devise'
+#level
+gem 'cancan'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
